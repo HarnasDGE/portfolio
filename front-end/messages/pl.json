@@ -1,0 +1,192 @@
+{
+  "menuLeft": {
+    "aboutMe": "O mnie",
+    "portfolio": "Portfolio",
+    "portfolioDetails": "Szczegóły portfolio",
+    "resume": "CV",
+    "contact": "Kontakt"
+  },
+  "navbarLeft": {
+    "hireMe": "Zatrudnij Mnie"
+  },
+  "hero": {
+    "greeting": "Cześć, jestem Junior Developer",
+    "title": "Front-End",
+    "description": "Jestem inżynierem oprogramowania specjalizującym się w skalowalnych aplikacjach internetowych. Odkryj moje {portfolio} i {resume}.",
+    "portfolio": "portfolio projektów",
+    "resume": "internetowe CV",
+    "viewPortfolioButton": "Zobacz Portfolio",
+    "viewResumeButton": "Zobacz CV"
+  },
+  "whatIDo": {
+    "semantic_tags": "Semantyczne znaczniki, struktura zoptymalizowana pod SEO.",
+    "responsive_layouts": "Responsywne layouty, animacje i atrakcyjne efekty wizualne.",
+    "dynamic_interfaces": "Dynamiczne interfejsy, integracje z API i logika front-endu.",
+    "component_apps": "Komponentowe aplikacje SPA i efektywne zarządzanie stanem.",
+    "seo_apps": "SSR, SSG oraz aplikacje przyjazne dla SEO.",
+    "package_management": "Zarządzanie pakietami i automatyzacja procesu developmentu.",
+    "version_control": "Kontrola wersji i współpraca w zespołach developerskich.",
+    "modern_syntax": "Nowoczesna składnia, moduły i ułatwiona praca z asynchronicznością.",
+    "title": "Czym się zajmuję",
+    "description": "Jestem początkującym twórcą stron internetowych, który zna HTML5, CSS3, JavaScript oraz React. Obecnie uczę się Next.js, aby w przyszłości zostać Fullstack Developerem. Jeśli chcesz dowiedzieć się więcej o moim doświadczeniu, sprawdź moje portfolio online i CV.",
+    "portfolioLink": "portfolio online",
+    "cvLink": "CV",
+    "cvButton": "Zobacz CV"
+  },
+  "workTogether": {
+    "heading": "Pracujmy razem nad Twoim następnym projektem",
+    "description": "Jestem dostępny do pracy na zlecenie. Zatrudnij mnie i zrealizuj swój projekt.",
+    "button": "Skontaktujmy się"
+  },
+
+  "resume": {
+    "headerName": "Damian Gębala",
+    "headerProfession": "Front-End Developer",
+    "headerContactPhone": "Telefon",
+    "headerContactPhoneValue": "0048 725 615 257",
+    "headerContactEmail": "E-mail",
+    "headerContactEmailValue": "damiangebala@gmail.com",
+    "headerContactWebsite": "Strona internetowa",
+    "headerContactWebsiteValue": "www.damiangebala.pl",
+    "headerContactLocation": "Lokalizacja",
+    "headerContactLocationValue": "Rabka-Zdrój, Polska",
+    "headerContactLinkedin": "LinkedIn",
+    "headerContactLinkedinValue": "linkedin.com/in/damian-gębala-15822725a",
+    "headerContactGithub": "GitHub",
+    "headerContactGithubValue": "github.com/harnasdge",
+
+    "sectionsObjectiveTitle": "Cel zawodowy",
+    "sectionsObjectiveContent": "Chcę rozpocząć karierę jako Junior Front-End Developer i zdobywać doświadczenie przy realizacji komercyjnych projektów. W przyszłości planuję rozwinąć się w kierunku Fullstack Developer.",
+
+    "sectionsSkillsTitle": "Umiejętności",
+
+    "sectionsSkillsTechnicalTitle": "Techniczne",
+    "sectionsSkillsTechnicalList0": "HTML5, CSS3",
+    "sectionsSkillsTechnicalList1": "JavaScript (ES6+)",
+    "sectionsSkillsTechnicalList2": "ReactJS",
+    "sectionsSkillsTechnicalList3": "Next.js",
+    "sectionsSkillsTechnicalList4": "Git/GitHub",
+    "sectionsSkillsTechnicalList5": "Podstawy Node.js",
+
+    "sectionsSkillsProfessionalTitle": "Profesjonalne",
+    "sectionsSkillsProfessionalList0": "Efektywna komunikacja",
+    "sectionsSkillsProfessionalList1": "Praca zespołowa",
+    "sectionsSkillsProfessionalList2": "Rozwiązywanie problemów",
+    "sectionsSkillsProfessionalList3": "Dobre zarządzanie czasem",
+    "sectionsSkillsProfessionalList4": "Nastawienie na rozwój",
+
+    "sectionsLanguagesTitle": "Języki",
+    "sectionsLanguagesList0Name": "Polski",
+    "sectionsLanguagesList0Level": "Ojczysty",
+    "sectionsLanguagesList1Name": "Angielski",
+    "sectionsLanguagesList1Level": "Czytanie dokumentacji technicznej",
+    "sectionsLanguagesList2Name": "Niemiecki",
+    "sectionsLanguagesList2Level": "B1",
+
+    "sectionsInterestsTitle": "Zainteresowania",
+    "sectionsInterestsList0": "Technologie webowe",
+    "sectionsInterestsList1": "Rozwój osobisty",
+    "sectionsInterestsList2": "Zagadki, puzzle",
+    "sectionsInterestsList3": "Gotowanie",
+
+    "sectionsProjectsTitle": "Projekty",
+
+    "sectionsProjectsList0Name": "Sklep internetowy (Front-End)",
+    "sectionsProjectsList0Technologies": "Next.js, React, Tailwind",
+    "sectionsProjectsList0Github": "https://github.com/HarnasDGE/ElectronicShop",
+    "sectionsProjectsList0LiveDemo": "https://electronic-shop-inky.vercel.app/",
+    "sectionsProjectsList0Description": "Projekt sklepu internetowego zoptymalizowanego pod kątem SEO z responsywnym układem oraz dynamicznie wczytywanymi komponentami.",
+    "sectionsProjectsList0Details0": "Implementacja funkcjonalności koszyka zakupowego.",
+    "sectionsProjectsList0Details1": "Zastosowanie SSR dla lepszego SEO.",
+    "sectionsProjectsList0Details2": "Tworzenie responsywnego layoutu i koszyka.",
+    "sectionsProjectsList0Details3": "Optymalizacja wydajności (lazy loading, dynamiczne importy).",
+
+    "sectionsProjectsList1Name": "Strona firmy ogrodniczej",
+    "sectionsProjectsList1Technologies": "NextJS, React, CSS",
+    "sectionsProjectsList1Github": "https://github.com/HarnasDGE/plants",
+    "sectionsProjectsList1LiveDemo": "https://plants-main.vercel.app/",
+    "sectionsProjectsList1Description": "Strona informacyjna dla firmy ogrodniczej, uwzględniająca nowoczesny design, funkcjonalność i przyjazność dla użytkownika.",
+    "sectionsProjectsList1Details0": "Tworzenie komponentów funkcyjnych.",
+    "sectionsProjectsList1Details1": "Dostosowanie layoutu do potrzeb klienta.",
+    "sectionsProjectsList1Details2": "Optymalizacja obrazów i stylów.",
+
+    "sectionsProjectsList2Name": "Strona internetowa domków na wynajem",
+    "sectionsProjectsList2Technologies": "NextJS, React, CSS",
+    "sectionsProjectsList2LiveDemo": "https://domkipodluboniem.pl",
+    "sectionsProjectsList2Description": "Witryna reklamująca domki na wynajem, z optymalizacją wydajności i estetycznym designem dopasowanym do wymagań klienta.",
+    "sectionsProjectsList2Details0": "Projekt i wdrożenie witryny.",
+    "sectionsProjectsList2Details1": "Optymalizacja witryny pod kątem wydajności i SEO.",
+
+    "sectionsEducationTitle": "Edukacja",
+
+    "sectionsEducationList0Name": "Kurs internetowy React",
+    "sectionsEducationList0Institution": "zrozumiecreact.pl",
+    "sectionsEducationList0Year": "2024",
+    "sectionsEducationList0Description": "Nauka frameworka React i jego ekosystemu.",
+    "sectionsEducationList0Details0": "Praca z komponentami funkcyjnymi i klasowymi.",
+    "sectionsEducationList0Details1": "Wzorce zarządzania stanem (Redux, Context).",
+    "sectionsEducationList0Details2": "Optymalizacja i debugowanie aplikacji React.",
+
+    "sectionsEducationList1Name": "Kurs internetowy Javascript/React",
+    "sectionsEducationList1Institution": "freecodecamp.org.pl",
+    "sectionsEducationList1Year": "2023",
+    "sectionsEducationList1Description": "Nauka HTML, CSS, JavaScript. Podstawy Reacta.",
+    "sectionsEducationList1Details0": "ES6+ (funkcje strzałkowe, destrukturyzacja, Promisy).",
+    "sectionsEducationList1Details1": "Tworzenie i stylowanie komponentów w React.",
+    "sectionsEducationList1Details2": "Wykorzystanie podstawowych hooków (useState, useEffect).",
+
+    "sectionsEducationList2Name": "Kurs internetowy C#",
+    "sectionsEducationList2Institution": "gotoit.pl",
+    "sectionsEducationList2Year": "2022/2023",
+    "sectionsEducationList2Description": "Nauka języka C#.",
+    "sectionsEducationList2Details0": "Podstawy programowania obiektowego (OOP).",
+    "sectionsEducationList2Details1": "Tworzenie aplikacji konsolowych w C#.",
+    "sectionsEducationList2Details2": "Obsługa wyjątków i podstawy LINQ.",
+
+    "sectionsEducationList3Name": "Technikum Informatyczne",
+    "sectionsEducationList3Institution": "Zespół Szkół Technicznych w Janowie Lubelskim",
+    "sectionsEducationList3Year": "2013-2017",
+    "sectionsEducationList3Description": "Zdobycie podstaw informatycznych, rozwijanie umiejętności programowania.",
+    "sectionsEducationList3Details0": "Wstęp do algorytmów i struktur danych.",
+    "sectionsEducationList3Details1": "Podstawy baz danych (SQL).",
+    "sectionsEducationList3Details2": "Projekty stron w HTML, CSS i JavaScript."
+  },
+  "resumePage": {
+    "title": "CV Online",
+    "button": "Pobierz wersję PDF"
+  },
+  "portfolioPage": {
+    "title": "Kolekcja moich najlepszych projektó",
+    "description": "Pozwól, że pokażę Ci moje najlepsze dzieła.",
+    "button": "Zatrudnij mnie"
+  },
+
+  "contactPage": {
+    "pageHeaderTitle": "Kontakt",
+    "pageHeaderDescription": "Chcesz mnie zatrudnić do swojego projektu lub po prostu się przywitać? Wypełnij formularz kontaktowy poniżej albo wyślij mi wiadomość na adres {emailLink}. Chcesz pozostać w kontakcie? Obserwuj mnie w moich kanałach społecznościowych.",
+
+    "contactDetailsHeading": "Dane kontaktowe",
+    "contactDetailsDescription": "Jeśli zamierzasz użyć fragmentu Lorem Ipsum, upewnij się, że nie ma w nim nic krępującego w środku tekstu.",
+
+    "phoneLabel": "Telefon",
+    "phoneValue": "+48 725 615 257",
+
+    "emailLabel": "E-mail",
+    "emailValue": "damiangebala@gmail.com",
+
+    "locationLabel": "Lokalizacja",
+    "locationStreet": "Gilówka 4a",
+    "locationCity": "34-700 Rabka-Zdrój",
+
+    "getInTouchHeading": "Skontaktuj się",
+    "getInTouchDescription": "Jeśli zamierzasz użyć fragmentu Lorem Ipsum, upewnij się, że nie ma w nim nic krępującego w środku tekstu.",
+
+    "formNamePlaceholder": "Twoje imię*",
+    "formEmailPlaceholder": "Twój e-mail*",
+    "formPhonePlaceholder": "Twój telefon",
+    "formLocationPlaceholder": "Twoja lokalizacja",
+    "formMessagePlaceholder": "Twoja wiadomość:",
+    "formCheckboxLabel": "Zapisz moje imię i e-mail w tej przeglądarce na przyszłość.",
+    "formSubmitButton": "Wyślij wiadomość"
+  }
+}

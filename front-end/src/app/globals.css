@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+/* Stylowanie nagłówków z użyciem clamp() */
+h1 {
+  font-size: clamp(
+    2.5rem,
+    5vw,
+    4rem
+  ); /* Minimalny: 2.5rem, preferowany: 5vw, maksymalny: 4rem */
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(
+    2rem,
+    4.5vw,
+    3.5rem
+  ); /* Minimalny: 2rem, preferowany: 4.5vw, maksymalny: 3.5rem */
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: clamp(
+    1.75rem,
+    4vw,
+    3rem
+  ); /* Minimalny: 1.75rem, preferowany: 4vw, maksymalny: 3rem */
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: clamp(
+    1.5rem,
+    3.5vw,
+    2.5rem
+  ); /* Minimalny: 1.5rem, preferowany: 3.5vw, maksymalny: 2.5rem */
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: clamp(
+    1.25rem,
+    3vw,
+    2rem
+  ); /* Minimalny: 1.25rem, preferowany: 3vw, maksymalny: 2rem */
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: clamp(
+    1rem,
+    2.5vw,
+    1.5rem
+  ); /* Minimalny: 1rem, preferowany: 2.5vw, maksymalny: 1.5rem */
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+p {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  line-height: 1.5;
+}
+
+a {
+  @apply text-primary;
+}

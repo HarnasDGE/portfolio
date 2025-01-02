@@ -1,0 +1,191 @@
+{
+  "menuLeft": {
+    "aboutMe": "About Me",
+    "portfolio": "Portfolio",
+    "portfolioDetails": "Portfolio Details",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "navbarLeft": {
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Junior Developer",
+    "title": "Front-End",
+    "description": "I'm a software engineer specializing in scalable web apps. Explore my {portfolio} and {resume}.",
+    "portfolio": "project portfolio",
+    "resume": "online resume",
+    "viewPortfolioButton": "View Portfolio",
+    "viewResumeButton": "View Resume"
+  },
+  "whatIDo": {
+    "semantic_tags": "Semantic tags, SEO-optimized structure.",
+    "responsive_layouts": "Responsive layouts, animations, and appealing visual effects.",
+    "dynamic_interfaces": "Dynamic interfaces, API integrations, and front-end logic.",
+    "component_apps": "Component-based SPA applications and efficient state management.",
+    "seo_apps": "SSR, SSG, and SEO-friendly applications.",
+    "package_management": "Package management and development process automation.",
+    "version_control": "Version control and collaboration in development teams.",
+    "modern_syntax": "Modern syntax, modules, and streamlined async work.",
+    "title": "What I Do",
+    "description": "I am a beginner web developer familiar with HTML5, CSS3, JavaScript, and React. Currently, I am learning Next.js to become a Fullstack Developer in the future. If you want to learn more about my experience, check out my online portfolio and CV.",
+    "portfolioLink": "online portfolio",
+    "cvLink": "CV",
+    "cvButton": "View CV"
+  },
+  "workTogether": {
+    "heading": "Let’s Work together on your next Project",
+    "description": "I am available for freelance projects. Hire me and get your project done.",
+    "button": "Let's get in touch"
+  },
+  "portfolioPage": {
+    "title": "A collection of my best projects",
+    "description": "Let me show you my best creations.",
+    "button": "Hire Me"
+  },
+  "resumePage": {
+    "title": "Online Resume",
+    "button": "Download PDF Version"
+  },
+  "resume": {
+    "headerName": "Damian Gębala",
+    "headerProfession": "Front-End Developer",
+    "headerContactPhone": "Phone",
+    "headerContactPhoneValue": "0048 725 615 257",
+    "headerContactEmail": "Email",
+    "headerContactEmailValue": "damiangebala@gmail.com",
+    "headerContactWebsite": "Website",
+    "headerContactWebsiteValue": "www.damiangebala.pl",
+    "headerContactLocation": "Location",
+    "headerContactLocationValue": "Rabka-Zdrój, Poland",
+    "headerContactLinkedin": "LinkedIn",
+    "headerContactLinkedinValue": "linkedin.com/in/damian-gębala-15822725a",
+    "headerContactGithub": "GitHub",
+    "headerContactGithubValue": "github.com/harnasdge",
+
+    "sectionsObjectiveTitle": "Career Objective",
+    "sectionsObjectiveContent": "I aim to start my career as a Junior Front-End Developer and gain experience in commercial projects. In the future, I plan to develop into a Fullstack Developer.",
+
+    "sectionsSkillsTitle": "Skills",
+
+    "sectionsSkillsTechnicalTitle": "Technical",
+    "sectionsSkillsTechnicalList0": "HTML5, CSS3",
+    "sectionsSkillsTechnicalList1": "JavaScript (ES6+)",
+    "sectionsSkillsTechnicalList2": "ReactJS",
+    "sectionsSkillsTechnicalList3": "Next.js",
+    "sectionsSkillsTechnicalList4": "Git/GitHub",
+    "sectionsSkillsTechnicalList5": "Basics of Node.js",
+
+    "sectionsSkillsProfessionalTitle": "Professional",
+    "sectionsSkillsProfessionalList0": "Effective communication",
+    "sectionsSkillsProfessionalList1": "Team player",
+    "sectionsSkillsProfessionalList2": "Strong problem solver",
+    "sectionsSkillsProfessionalList3": "Good time management",
+    "sectionsSkillsProfessionalList4": "Focus on continuous development",
+
+    "sectionsLanguagesTitle": "Languages",
+    "sectionsLanguagesList0Name": "Polish",
+    "sectionsLanguagesList0Level": "Native",
+    "sectionsLanguagesList1Name": "English",
+    "sectionsLanguagesList1Level": "Technical documentation proficiency",
+    "sectionsLanguagesList2Name": "German",
+    "sectionsLanguagesList2Level": "B1",
+
+    "sectionsInterestsTitle": "Interests",
+    "sectionsInterestsList0": "Web technologies",
+    "sectionsInterestsList1": "Personal development",
+    "sectionsInterestsList2": "Puzzles",
+    "sectionsInterestsList3": "Cooking",
+
+    "sectionsProjectsTitle": "Projects",
+
+    "sectionsProjectsList0Name": "E-commerce Store (Front-End)",
+    "sectionsProjectsList0Technologies": "Next.js, React, Tailwind",
+    "sectionsProjectsList0Github": "https://github.com/HarnasDGE/ElectronicShop",
+    "sectionsProjectsList0LiveDemo": "https://electronic-shop-inky.vercel.app/",
+    "sectionsProjectsList0Description": "An SEO-optimized e-commerce store with responsive layout and dynamic components.",
+    "sectionsProjectsList0Details0": "Implemented shopping cart functionality.",
+    "sectionsProjectsList0Details1": "Used SSR for better SEO.",
+    "sectionsProjectsList0Details2": "Created responsive layout and cart.",
+    "sectionsProjectsList0Details3": "Optimized performance (lazy loading, dynamic imports).",
+
+    "sectionsProjectsList1Name": "Gardening Company Website",
+    "sectionsProjectsList1Technologies": "NextJS, React, CSS",
+    "sectionsProjectsList1Github": "https://github.com/HarnasDGE/plants",
+    "sectionsProjectsList1LiveDemo": "https://plants-main.vercel.app/",
+    "sectionsProjectsList1Description": "A modern and user-friendly informational website for a gardening company.",
+    "sectionsProjectsList1Details0": "Created functional components.",
+    "sectionsProjectsList1Details1": "Customized layout based on client needs.",
+    "sectionsProjectsList1Details2": "Optimized images and styles.",
+
+    "sectionsProjectsList2Name": "Rental Cottages Website",
+    "sectionsProjectsList2Technologies": "NextJS, React, CSS",
+    "sectionsProjectsList2LiveDemo": "https://domkipodluboniem.pl",
+    "sectionsProjectsList2Description": "A performance-optimized advertising website for rental cottages with a user-friendly design.",
+    "sectionsProjectsList2Details0": "Designed and implemented the website.",
+    "sectionsProjectsList2Details1": "Optimized the site for performance and SEO.",
+
+    "sectionsEducationTitle": "Education",
+
+    "sectionsEducationList0Name": "React Online Course",
+    "sectionsEducationList0Institution": "zrozumiecreact.pl",
+    "sectionsEducationList0Year": "2024",
+    "sectionsEducationList0Description": "Learning the React framework and its ecosystem.",
+    "sectionsEducationList0Details0": "Worked with functional and class components.",
+    "sectionsEducationList0Details1": "Explored state management patterns (Redux, Context).",
+    "sectionsEducationList0Details2": "Optimized and debugged React applications.",
+
+    "sectionsEducationList1Name": "JavaScript/React Online Course",
+    "sectionsEducationList1Institution": "freecodecamp.org.pl",
+    "sectionsEducationList1Year": "2023",
+    "sectionsEducationList1Description": "Learning HTML, CSS, JavaScript basics, and React.",
+    "sectionsEducationList1Details0": "Mastered ES6+ (arrow functions, destructuring, Promises).",
+    "sectionsEducationList1Details1": "Created and styled React components.",
+    "sectionsEducationList1Details2": "Used basic hooks (useState, useEffect).",
+
+    "sectionsEducationList2Name": "C# Online Course",
+    "sectionsEducationList2Institution": "gotoit.pl",
+    "sectionsEducationList2Year": "2022/2023",
+    "sectionsEducationList2Description": "Learning the C# programming language.",
+    "sectionsEducationList2Details0": "Understood object-oriented programming basics.",
+    "sectionsEducationList2Details1": "Built console applications in C#.",
+    "sectionsEducationList2Details2": "Learned exception handling and LINQ basics.",
+
+    "sectionsEducationList3Name": "IT Technical School",
+    "sectionsEducationList3Institution": "Technical School Complex in Janów Lubelski",
+    "sectionsEducationList3Year": "2013-2017",
+    "sectionsEducationList3Description": "Gained fundamental IT knowledge and programming skills.",
+    "sectionsEducationList3Details0": "Introduction to algorithms and data structures.",
+    "sectionsEducationList3Details1": "Basics of databases (SQL).",
+    "sectionsEducationList3Details2": "Created websites using HTML, CSS, and JavaScript."
+  },
+
+  "contactPage": {
+    "pageHeaderTitle": "Contact",
+    "pageHeaderDescription": "Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to {emailLink}. Want to get connected? Follow me on the social channels below.",
+
+    "contactDetailsHeading": "Contact Details",
+    "contactDetailsDescription": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+
+    "phoneLabel": "Phone",
+    "phoneValue": "+48 725 615 257",
+
+    "emailLabel": "Email",
+    "emailValue": "damiangebala@gmail.com",
+
+    "locationLabel": "Location",
+    "locationStreet": "Gilówka 4a",
+    "locationCity": "34-700 Rabka-Zdrój",
+
+    "getInTouchHeading": "Get In Touch",
+    "getInTouchDescription": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+
+    "formNamePlaceholder": "Your Name*",
+    "formEmailPlaceholder": "Your Email*",
+    "formPhonePlaceholder": "Your Phone",
+    "formLocationPlaceholder": "Your Location",
+    "formMessagePlaceholder": "Your Message:",
+    "formCheckboxLabel": "Save my name, email in this browser for the next time.",
+    "formSubmitButton": "Send Message"
+  }
+}
