@@ -69,11 +69,11 @@ export const WhatIDo = () => {
         </div>
       </WidthWrapper>
 
-      <WidthWrapper className="pt-10 flex flex-wrap gap-5">
+      <WidthWrapper className="pt-10 flex flex-wrap  gap-5">
         {technologies.map((technology) => (
           <article
             key={technology.title}
-            className="h-[300px] w-[300px] p-10 shadow bg-navbar dark:bg-dnavbar border-gray/10 border-[1px] shadow transition-all hover:bg-light hover:dark:bg-dark hover:border-primary hover:shadow-2xl"
+            className="h-auto lg:h-[300px] w-full lg:w-[300px] p-10 shadow bg-navbar dark:bg-dnavbar border-gray/10 border-[1px] shadow transition-all hover:bg-light hover:dark:bg-dark hover:border-primary hover:shadow-2xl"
           >
             <Image
               src={technology.icon}

@@ -5,14 +5,20 @@ import { pages } from "../data/pages";
 import { useTranslations } from "next-intl";
 import { projects } from "../data/projects";
 
-export const MenuLeft = () => {
+export const Menu = ({ position, className }) => {
   const pathname = usePathname();
   const { locale } = useParams();
 
   const t = useTranslations("menuLeft");
 
   return (
-    <ul className="py-5">
+    <ul
+      className={`py-5 ${
+        position === "bottom"
+          ? "flex gap-5 justify-between px-5 sticky bottom-0 bg-light dark:bg-dark border-t-2 border-navbar dark:border-dnavbar z-[999] shadow"
+          : ""
+      } ${className}`}
+    >
       {pages.map((page) => {
         const href = `/${locale}${page.src}`;
         const isActive =
@@ -22,7 +28,7 @@ export const MenuLeft = () => {
           <li key={page.key}>
             <Link
               href={href}
-              className={`text-black dark:text-light flex justify-between items-center h-full w-full block cursor-pointer py-2 px-3 mb-2 rounded-xl transition-all ${
+              className={`text-black dark:text-light flex justify-between items-center h-full block cursor-pointer py-2 px-3 mb-2 rounded-xl transition-all ${
                 isActive ? "bg-primary text-light" : ""
               }`}
             >
@@ -32,12 +38,14 @@ export const MenuLeft = () => {
                   size={20}
                   weight="bold"
                 />
-                <p className={`${isActive ? "text-light" : ""}`}>
+                <p
+                  className={`${isActive ? "text-light" : ""} hidden sm:block`}
+                >
                   {t(`${page.key}`)}
                 </p>
               </div>
               {page.key === "portfolio" ? (
-                <div className="text-light py-[2px] px-2 bg-secondary rounded-lg">
+                <div className="text-light py-[2px] ml-3 px-2 bg-secondary rounded-lg hidden sm:block">
                   {projects.length}
                 </div>
               ) : (

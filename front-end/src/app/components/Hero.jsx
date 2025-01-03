@@ -5,6 +5,7 @@ import { ArrowArcRight, NewspaperClipping } from "phosphor-react";
 import { Button } from "./Button";
 import Image from "next/image";
 import { WidthWrapper } from "./WidthWrapper";
+import { ImageHero } from "./ImageHero";
 
 export const Hero = () => {
   const t = useTranslations("hero");
@@ -18,7 +19,6 @@ export const Hero = () => {
             <h2 className="text-primary font-extrabold py-6">Front-End</h2>
             <p className="max-w-[500px]">
               {t.rich("description", {
-                // zmiana: bez funkcji strzałkowych
                 portfolio: (
                   <Link href="/portfolio" className="text-primary">
                     {t("portfolio")}
@@ -31,6 +31,10 @@ export const Hero = () => {
                 ),
               })}
             </p>
+
+            <div className="xl:hidden py-10  mx-auto">
+              <ImageHero />
+            </div>
             <div className="flex gap-5 py-14">
               <Button>
                 <ArrowArcRight size={25} />
@@ -71,16 +75,8 @@ export const Hero = () => {
             <Image src="/logos/npm.png" height={34} width={34} alt="NPM logo" />
           </div>
         </div>
-        <div className="w-full flex justify-center">
-          <div className="relative h-[398px] w-[326px] px-10">
-            <Image
-              src="/images/damianOriginalBlur.png"
-              layout="fill"
-              className="object-cover rounded shadow"
-              alt="Damian photo"
-            />
-            <div className="absolute -z-10 top-0 left-0 w-full h-full bg-primary rotate-[8deg]" />
-          </div>
+        <div className="w-full flex justify-center hidden xl:flex">
+          <ImageHero />
         </div>
       </WidthWrapper>
     </section>

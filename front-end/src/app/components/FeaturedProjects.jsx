@@ -19,7 +19,7 @@ export const FeaturedProjects = () => {
   return (
     <section>
       <WidthWrapper className="p-20 border-b-2 border-navbar dark:border-dnavbar">
-        <div className="flex gap-5">
+        <div className="xl:flex xl:gap-5">
           <div className="flex-grow">
             <h2 className="border-l-8 border-primary pl-3">
               Featured Projects

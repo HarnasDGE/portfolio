@@ -16,7 +16,7 @@ export const LanguageSwitcher = () => {
   );
 
   return (
-    <div className="flex justify-center mt-4">
+    <div className="flex justify-center">
       <Link href={newPathname}>
         <Button isIcon>
           {currentLocale === "en" ? (

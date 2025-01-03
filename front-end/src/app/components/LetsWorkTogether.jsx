@@ -5,12 +5,12 @@ export const LetsWorkTogether = async () => {
   const t = await getTranslations("workTogether");
 
   return (
-    <div className="relative w-full p-20 flex gap-10 items-center border-b-2 border-navbar dark:border-dnavbar">
+    <div className="relative w-full p-20 xl:flex xl:gap-10 items-center border-b-2 border-navbar dark:border-dnavbar">
       <div className=" text-light">
         <h2>{t("heading")}</h2>
         <p>{t("description")}</p>
       </div>
-      <div>
+      <div className="pt-10">
         <Button>{t("button")}</Button>
       </div>
       <div
