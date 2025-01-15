@@ -12,12 +12,18 @@ import {
 } from "phosphor-react";
 import { ProfileImage } from "./ProfileImage";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const Resume = () => {
   const t = useTranslations("resume");
 
   return (
-    <section className="mx-auto my-10 p-12 border-2 border-navbar dark:border-dnavbar shadow-md rounded-3xl">
+    <motion.section
+      className="mx-auto my-10 p-12 border-2 border-navbar dark:border-dnavbar shadow-md rounded-3xl"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       {/* HEADER */}
       <header className="py-6 flex">
         <div className="flex-grow">
@@ -339,6 +345,6 @@ export const Resume = () => {
           </section>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };

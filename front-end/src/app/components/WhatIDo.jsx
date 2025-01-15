@@ -5,6 +5,9 @@ import Link from "next/link";
 import { useTranslations } from "use-intl";
 import Image from "next/image";
 import { WidthWrapper } from "./WidthWrapper";
+import { motion } from "framer-motion";
+import { bounce, fadeInLeft, staggerContainer } from "../animations/animations";
+import { useParams } from "next/navigation";
 
 export const WhatIDo = () => {
   const technologies = [
@@ -50,30 +53,45 @@ export const WhatIDo = () => {
     },
   ];
   const t = useTranslations("whatIDo");
-
+  const { locale } = useParams();
   return (
-    <article className="px-20 py-16 border-b-2 border-navbar dark:border-dnavbar">
+    <motion.article
+      className="px-20 py-16 border-b-2 border-navbar dark:border-dnavbar"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={staggerContainer}
+    >
       <WidthWrapper>
-        <h2 className="border-l-8 border-primary pl-3">{t("title")}</h2>
-        <div className="xl:flex xl:gap-5">
+        <motion.h2
+          className="border-l-8 border-primary pl-3"
+          variants={fadeInLeft}
+        >
+          {t("title")}
+        </motion.h2>
+        <motion.div className="xl:flex xl:gap-5" variants={fadeInLeft}>
           <p className="py-3">
             {t("description")}{" "}
             <Link href="/portfolio">{t("portfolioLink")}</Link> i{" "}
             <Link href="/resume">{t("cvLink")}</Link>.
           </p>
           <div>
-            <Button>
+            <Button href={`/${locale}/resume`}>
               <NewspaperClipping size="24" weight="bold" /> {t("cvButton")}
             </Button>
           </div>
-        </div>
+        </motion.div>
       </WidthWrapper>
 
-      <WidthWrapper className="pt-10 flex flex-wrap  gap-5">
+      <WidthWrapper className="pt-10 flex flex-wrap gap-5">
         {technologies.map((technology) => (
-          <article
+          <motion.article
             key={technology.title}
             className="h-auto lg:h-[300px] w-full lg:w-[300px] p-10 shadow bg-navbar dark:bg-dnavbar border-gray/10 border-[1px] shadow transition-all hover:bg-light hover:dark:bg-dark hover:border-primary hover:shadow-2xl"
+            initial={bounce.initial}
+            whileInView={bounce.animate}
+            viewport={{ once: true }}
+            transition={bounce.transition}
           >
             <Image
               src={technology.icon}
@@ -84,9 +102,9 @@ export const WhatIDo = () => {
             />
             <h3 className="text-xl py-5">{technology.title}</h3>
             <p>{t(`${technology.key}`)}</p>
-          </article>
+          </motion.article>
         ))}
       </WidthWrapper>
-    </article>
+    </motion.article>
   );
 };

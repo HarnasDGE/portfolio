@@ -5,20 +5,14 @@ import { pages } from "../data/pages";
 import { useTranslations } from "next-intl";
 import { projects } from "../data/projects";
 
-export const Menu = ({ position, className }) => {
+export const Menu = ({ className }) => {
   const pathname = usePathname();
   const { locale } = useParams();
 
   const t = useTranslations("menuLeft");
 
   return (
-    <ul
-      className={`py-5 ${
-        position === "bottom"
-          ? "flex gap-5 justify-between px-5 sticky bottom-0 bg-light dark:bg-dark border-t-2 border-navbar dark:border-dnavbar z-[999] shadow"
-          : ""
-      } ${className}`}
-    >
+    <ul className={`py-5 ${className}`}>
       {pages.map((page) => {
         const href = `/${locale}${page.src}`;
         const isActive =

@@ -1,17 +1,14 @@
 "use client";
 import Link from "next/link";
-import {
-  FacebookLogo,
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-} from "phosphor-react";
+import { FacebookLogo, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 const socialLinks = [
   { Icon: FacebookLogo, href: "https://facebook.com" },
-  { Icon: InstagramLogo, href: "https://instagram.com" },
-  { Icon: GithubLogo, href: "https://github.com" },
-  { Icon: LinkedinLogo, href: "https://linkedin.com" },
+  { Icon: GithubLogo, href: "https://github.com/harnasdge" },
+  {
+    Icon: LinkedinLogo,
+    href: "https://linkedin.com/in/damian-gębala-15822725a",
+  },
 ];
 
 export const SocialMedia = () => {

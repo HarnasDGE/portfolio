@@ -4,8 +4,12 @@ import { Button } from "./Button";
 import { WidthWrapper } from "./WidthWrapper";
 import { PortfolioCard } from "./PortfolioCard";
 import { projects } from "../data/projects";
+import { motion } from "framer-motion";
+import { fadeInLeft, staggerContainer } from "../animations/animations";
+import { useParams } from "next/navigation";
 
 export const FeaturedProjects = () => {
+  const { locale } = useParams();
   const sortedProjects = [...projects].sort((a, b) => {
     if (a.category === "Large Projects" && b.category !== "Large Projects") {
       return -1;
@@ -17,9 +21,14 @@ export const FeaturedProjects = () => {
   });
 
   return (
-    <section>
+    <motion.section
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={staggerContainer}
+    >
       <WidthWrapper className="p-20 border-b-2 border-navbar dark:border-dnavbar">
-        <div className="xl:flex xl:gap-5">
+        <motion.div className="xl:flex xl:gap-5" variants={fadeInLeft}>
           <div className="flex-grow">
             <h2 className="border-l-8 border-primary pl-3">
               Featured Projects
@@ -31,20 +40,23 @@ export const FeaturedProjects = () => {
             </p>
           </div>
           <div className="mt-8">
-            <Button>
+            <Button href={`/${locale}/portfolio`}>
               <NewspaperClipping size="24" weight="bold" /> View Portfolio
             </Button>
           </div>
-        </div>
+        </motion.div>
 
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-8">
+        <motion.ul
+          className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-8"
+          variants={staggerContainer}
+        >
           {sortedProjects.map((project) => (
             <li key={project.id}>
               <PortfolioCard project={project} />
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </WidthWrapper>
-    </section>
+    </motion.section>
   );
 };
