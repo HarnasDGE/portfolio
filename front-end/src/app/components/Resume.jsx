@@ -17,6 +17,9 @@ import { motion } from "framer-motion";
 export const Resume = () => {
   const t = useTranslations("resume");
 
+  const githubLinkShort = "GitHub";
+  const liveLinkShort = "Live";
+
   return (
     <motion.section
       className="mx-auto my-10 p-12 border-2 border-navbar dark:border-dnavbar shadow-md rounded-3xl"
@@ -162,19 +165,18 @@ export const Resume = () => {
                     <p className="flex gap-2 items-center">
                       <GithubLogo weight="bold" />
                       <Link href={t("sectionsProjectsList0Github")}>
-                        {t("sectionsProjectsList0Github")}
+                        {githubLinkShort}
                       </Link>
                     </p>
                     <p className="flex gap-2 items-center">
                       <Play weight="bold" />
                       <Link href={t("sectionsProjectsList0LiveDemo")}>
-                        {t("sectionsProjectsList0LiveDemo")}
+                        {liveLinkShort}
                       </Link>
                     </p>
                   </div>
                 </div>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsProjectsList0Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsProjectsList0Details0")}</li>
@@ -201,19 +203,18 @@ export const Resume = () => {
                     <p className="flex gap-2 items-center">
                       <GithubLogo weight="bold" />
                       <Link href={t("sectionsProjectsList1Github")}>
-                        {t("sectionsProjectsList1Github")}
+                        {githubLinkShort}
                       </Link>
                     </p>
                     <p className="flex gap-2 items-center">
                       <Play weight="bold" />
                       <Link href={t("sectionsProjectsList1LiveDemo")}>
-                        {t("sectionsProjectsList1LiveDemo")}
+                        {liveLinkShort}
                       </Link>
                     </p>
                   </div>
                 </div>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsProjectsList1Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsProjectsList1Details0")}</li>
@@ -239,13 +240,12 @@ export const Resume = () => {
                     <p className="flex gap-2 items-center">
                       <Play weight="bold" />
                       <Link href={t("sectionsProjectsList2LiveDemo")}>
-                        {t("sectionsProjectsList2LiveDemo")}
+                        {liveLinkShort}
                       </Link>
                     </p>
                   </div>
                 </div>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsProjectsList2Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsProjectsList2Details0")}</li>
@@ -272,7 +272,6 @@ export const Resume = () => {
                   {t("sectionsEducationList0Year")}
                 </p>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsEducationList0Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsEducationList0Details0")}</li>
@@ -292,7 +291,6 @@ export const Resume = () => {
                   {t("sectionsEducationList1Year")}
                 </p>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsEducationList1Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsEducationList1Details0")}</li>
@@ -312,7 +310,6 @@ export const Resume = () => {
                   {t("sectionsEducationList2Year")}
                 </p>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsEducationList2Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsEducationList2Details0")}</li>
@@ -332,7 +329,6 @@ export const Resume = () => {
                   {t("sectionsEducationList3Year")}
                 </p>
                 <p className="mt-2">
-                  <strong>Description:</strong>{" "}
                   {t("sectionsEducationList3Description")}
                   <ul className="list-disc pl-14">
                     <li>{t("sectionsEducationList3Details0")}</li>

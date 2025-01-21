@@ -13,7 +13,7 @@ export const bounce = {
   animate: { opacity: 1, scale: 1 },
   transition: {
     duration: 1,
-    scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+    scale: { type: "spring", bounce: 0.5 },
     bounce: 1,
   },
 };

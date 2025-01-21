@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "./Button";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const PortfolioCard = ({ project }) => {
   const { locale } = useParams();
@@ -55,19 +56,20 @@ export const PortfolioCard = ({ project }) => {
     >
       <div className="overflow-hidden">
         <motion.div
-          className="relative h-[350px] w-full "
+          className="relative aspect-video w-full "
           variants={imageVariants}
           whileHover="show"
           initial="hide"
         >
-          <Image
-            src={project.image}
-            alt={`${project.title} preview`}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="top"
-            className="absolute w-full h-full p-2 shadow-lg rounded-lg cursor-pointer hover:border-2 hover:border-primary"
-          />
+          <Link href={`/${locale}/portfolio/${project.id}`}>
+            <Image
+              src={project.image}
+              alt={`${project.title} preview`}
+              fill
+              quality={100}
+              className=" object-cover object-top p-2 shadow-lg rounded-lg cursor-pointer hover:border-2 hover:border-primary"
+            />
+          </Link>
         </motion.div>
       </div>
       <div className="flex items-center pt-5">
@@ -82,11 +84,21 @@ export const PortfolioCard = ({ project }) => {
               </li>
             ))}
           </ul>
-          <h4 className="text-xl font-bold mt-4 hover:text-primary transition-all duration-300 cursor-pointer">
-            {locale === "en" ? project.enTitle : project.title}
-          </h4>
+          <Link
+            href={`/${locale}/portfolio/${project.id}`}
+            className="text-dark dark:text-light hover:text-primary transition-all duration-300 cursor-pointer"
+          >
+            <h4 className="text-xl font-bold mt-4">
+              {locale === "en" ? project.enTitle : project.title}
+            </h4>
+          </Link>
         </div>
-        <Button color="gray" isIcon isHoverRotate={true}>
+        <Button
+          color="gray"
+          isIcon
+          isHoverRotate={true}
+          href={`/${locale}/portfolio/${project.id}`}
+        >
           <ArrowUpRight size={32} />
         </Button>
       </div>

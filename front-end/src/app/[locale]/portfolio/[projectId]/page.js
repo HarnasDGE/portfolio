@@ -1,3 +1,4 @@
+import { LetsWorkTogether } from "@/app/components/LetsWorkTogether";
 import { PageHeader } from "@/app/components/PageHeader";
 import { PortfolioView } from "@/app/components/PortoflioView";
 import { projects } from "@/app/data/projects";
@@ -15,6 +16,7 @@ export default async function Home({ params }) {
         {locale === "pl" ? project.description : project.enDescription}
       </PageHeader>
       <PortfolioView project={project} />
+      <LetsWorkTogether />
     </main>
   );
 }

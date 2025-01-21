@@ -3,7 +3,10 @@ import Link from "next/link";
 import { FacebookLogo, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 const socialLinks = [
-  { Icon: FacebookLogo, href: "https://facebook.com" },
+  {
+    Icon: FacebookLogo,
+    href: "https://www.facebook.com/profile.php?id=61551437875202",
+  },
   { Icon: GithubLogo, href: "https://github.com/harnasdge" },
   {
     Icon: LinkedinLogo,

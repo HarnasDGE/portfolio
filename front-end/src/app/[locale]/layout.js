@@ -17,11 +17,21 @@ const jost = Jost({
 export const metadata = {
   title: "Portfolio - Damian Gębala",
   description: "Portfolio created by Damian Gębala",
+  openGraph: {
+    title: "Portfolio - Damian Gębala",
+    description: "Portfolio created by Damian Gębala",
+    url: "https://damingebala.pl",
+    images: [
+      {
+        url: "https://damiangebala.pl/socialBackground.png",
+        alt: "Portfolio created by Damian Gębala",
+      },
+    ],
+  },
 };
 
 export default async function RootLayout({ children, params }) {
-  const resolvedParams = await params; // czekamy na params
-  const { locale } = resolvedParams;
+  const { locale } = await params; // czekamy na params
   const messages = await getMessages();
 
   return (
