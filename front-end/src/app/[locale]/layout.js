@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://damingebala.pl",
     images: [
       {
-        url: "https://damiangebala.pl/socialBackground.png",
+        url: "https://damiangebala.pl/images/socialBackground.png",
         alt: "Portfolio created by Damian Gębala",
       },
     ],
